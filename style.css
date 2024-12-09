@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+div.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: calc(212px * 3);
+}
+
+div.card {
+  border: 1px solid lightgrey;
+  box-shadow: 5px 5px 5px lightgrey;
+  overflow: hidden;
+  width: 185px;
+  height: 380px;
+  /* height: 300px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.card .text {
+  width: fit-content;
+  padding: 10px;
+}
+
+div.card img {
+  height: 125px;
+}
+
+.card p,
+.card h3 {
+  width: 163px;
+  padding: 10px 0px 12.5px 0px;
+}
+
+.card button {
+  width: 163px;
+  padding: 10px 0px 10px 0px;
+  border: none;
+  background-color: darkgrey;
+  color: white;
+}
